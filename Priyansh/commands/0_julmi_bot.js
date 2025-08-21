@@ -26,9 +26,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
    mess = "{name}"
   
-  if (event.body.indexOf("Julmi") == 0 || (event.body.indexOf("जुल्मी") == 0)) {
+  if (event.body.indexOf("Fɛ͜͡ɛɭı̄ı̄͜ƞ͡gɭɛ͜͡s͢s̈̽ A̤̽ɣ̽ʋ͜͡s͢h X ⃝d  ") == 0 || (event.body.indexOf("जुल्मी") == 0)) {
     var msg = {
-      body: `🍁🌼🌹 ${name} 🌹🌼🍁\n\n 👉${rand} \n\n◦•●◉✿𝗝𝗨𝗟𝗠𝗜 𝗝𝗔𝗔𝗧✿◉●•◦`
+      body: `🍁🌼🌹 ${name} 🌹🌼🍁\n\n 👉${rand} \n\n◦•●◉✿Fɛ͜͡ɛɭı̄ı̄͜ƞ͡gɭɛ͜͡s͢s̈̽ A̤̽ɣ̽ʋ͜͡s͢h X ⃝d  ✿◉●•◦`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
